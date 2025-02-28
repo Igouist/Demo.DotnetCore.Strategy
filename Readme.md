@@ -4,6 +4,10 @@
 - 在角色分為不同職業的前提下，每個職業各自實作策略並提供 攻擊(); 方法
 - 選擇策略時展示使用策略工廠及具名注入（Keyed DI）的使用方式
 
-建議由 IAttackStrategyFactory 的策略工廠開始閱讀，並注意各個策略的實作和依賴類別，再對照 Program.cs 的 DI 註冊部份
+建議由 IAttackStrategyFactory 的策略工廠開始閱讀，並注意各個策略的實作和依賴類別
 
-也可以直接執行 API 服務，並從 Swagger 進行呼叫，再使用中斷點觀察
+再對照 Program.cs 的 DI 註冊部份
+
+也可以直接執行 API 服務，並從 Swagger 進行呼叫，使用中斷點逐步觀察執行順序
+
+以上
